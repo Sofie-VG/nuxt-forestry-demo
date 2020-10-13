@@ -29,6 +29,12 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: kleurtje
+  type: color
+  label: Kleurtje
+  config:
+    required: false
+    color_format: Hex
 pages:
 - content/blog-posts/an-essay-on-walking.md
 - content/blog-posts/ne-te-quaesiveris-extra.md
